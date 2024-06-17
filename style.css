@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 2rem;
+    text-align: center;
+    background-color: #0c1737fd;
+    color: white;
+}
+
+h1{
+    font-size: 3rem;
+    font-family:cursive;
+    font-weight: 500;
+    color:#80B9AD;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.40rem;
+    background-color: #E1F7F5;
+    border: none;
+    box-shadow: 0 0 1rem rgba(18, 159, 177, 0.3) ;
+    font-size: 10vmin;
+    color: black;
+}
+
+/* .box:hover{
+    height: 18.2vmin;
+    width: 18.2vmin;
+} */
+
+.reset-btn{
+    font-size:1rem ;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #9AC8CD;
+    font-weight: 700;
+    font-family:cursive;
+}
+
+.reset-btn:hover{
+    padding: 1.05rem;
+    border: none;
+    letter-spacing: 0.05rem;
+    box-shadow: 0 0 1rem rgb(18, 159, 177, 0.3);
+}
+
+.btn-animation{
+    height: 18.5vmin;
+    width: 18.5vmin;
+    box-shadow: 0 0 1rem rgba(25, 50, 53, 0.788)
+}
+
+.winnerannounce{
+    font-family:cursive;
+    font-size: 2.5rem;
+    color: #80B9AD;
+}
+.turnwise{
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family:cursive ;
+    color:rgba(139, 199, 234, 0.816) ;
+}
